@@ -1,0 +1,167 @@
+
+Apex@RUSH-DT55SJC8LS MINGW64 ~
+$ pwd
+/c/Users/user
+
+Apex@RUSH-DT55SJC8LS MINGW64 ~
+$ cd /c/Users/user/Desktop/henock
+
+Apex@RUSH-DT55SJC8LS MINGW64 ~/Desktop/henock
+$ pwd
+/c/Users/user/Desktop/henock
+
+Apex@RUSH-DT55SJC8LS MINGW64 ~/Desktop/henock
+$ git --version
+git version 2.34.0.windows.1
+
+Apex@RUSH-DT55SJC8LS MINGW64 ~/Desktop/henock
+$ git clone
+fatal: You must specify a repository to clone.
+
+usage: git clone [<options>] [--] <repo> [<dir>]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    --reject-shallow      don't clone shallow repository
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recurse-submodules[=<pathspec>]
+                          initialize submodules in the clone
+    --recursive ...       alias of --recurse-submodules
+    -j, --jobs <n>        number of submodules cloned in parallel
+    --template <template-directory>
+                          directory from which templates will be used
+    --reference <repo>    reference repository
+    --reference-if-able <repo>
+                          reference repository
+    --dissociate          use --reference only while cloning
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream
+    -b, --branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    -u, --upload-pack <path>
+                          path to git-upload-pack on the remote
+    --depth <depth>       create a shallow clone of that depth
+    --shallow-since <time>
+                          create a shallow clone since a specific time
+    --shallow-exclude <revision>
+                          deepen history of shallow clone, excluding rev
+    --single-branch       clone only one branch, HEAD or --branch
+    --no-tags             don't clone any tags, and make later fetches not to follow them
+    --shallow-submodules  any cloned submodules will be shallow
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --config <key=value>
+                          set config inside the new repository
+    --server-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+    --filter <args>       object filtering
+    --remote-submodules   any cloned submodules will use their remote-tracking branch
+    --sparse              initialize sparse-checkout file to include only files at root
+
+
+Apex@RUSH-DT55SJC8LS MINGW64 ~/Desktop/henock
+$ git clone https://github.com/henypeny9111/hezben-d.git
+Cloning into 'hezben-d'...
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 10 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (10/10), done.
+
+Apex@RUSH-DT55SJC8LS MINGW64 ~/Desktop/henock
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Apex@RUSH-DT55SJC8LS MINGW64 ~/Desktop/henock
+$ cd hezben-d/
+
+Apex@RUSH-DT55SJC8LS MINGW64 ~/Desktop/henock/hezben-d (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Recipies.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Apex@RUSH-DT55SJC8LS MINGW64 ~/Desktop/henock/hezben-d (main)
+$ git diff Re
+README.md     Recipies.txt
+
+Apex@RUSH-DT55SJC8LS MINGW64 ~/Desktop/henock/hezben-d (main)
+$ git diff Re
+README.md     Recipies.txt
+
+Apex@RUSH-DT55SJC8LS MINGW64 ~/Desktop/henock/hezben-d (main)
+$ git diff Re
+README.md     Recipies.txt
+
+Apex@RUSH-DT55SJC8LS MINGW64 ~/Desktop/henock/hezben-d (main)
+$ git diff Recipies.txt
+diff --git a/Recipies.txt b/Recipies.txt
+index 225ee6a..d54fb64 100644
+--- a/Recipies.txt
++++ b/Recipies.txt
+@@ -5,3 +5,5 @@ welcome to kitchen
+ chicken
+ beans
+ pizza
++
++kit kat
+
+Apex@RUSH-DT55SJC8LS MINGW64 ~/Desktop/henock/hezben-d (main)
+$ git add .
+
+Apex@RUSH-DT55SJC8LS MINGW64 ~/Desktop/henock/hezben-d (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Recipies.txt
+
+
+Apex@RUSH-DT55SJC8LS MINGW64 ~/Desktop/henock/hezben-d (main)
+$ git push
+fatal: helper error (-1): User cancelled dialog.
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/bin/git-askpass.exe'
+Username for 'https://github.com':
+
+
+k
+
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/bin/git-askpass.exe'
+
+Apex@RUSH-DT55SJC8LS MINGW64 ~/Desktop/henock/hezben-d (main)
+$
+
+Apex@RUSH-DT55SJC8LS MINGW64 ~/Desktop/henock/hezben-d (main)
+$
+
+Apex@RUSH-DT55SJC8LS MINGW64 ~/Desktop/henock/hezben-d (main)
+$ k
+bash: k: command not found
+
+Apex@RUSH-DT55SJC8LS MINGW64 ~/Desktop/henock/hezben-d (main)
+$
+
+Apex@RUSH-DT55SJC8LS MINGW64 ~/Desktop/henock/hezben-d (main)
+$ git pull
+Already up to date.
+
+Apex@RUSH-DT55SJC8LS MINGW64 ~/Desktop/henock/hezben-d (main)
+$ ^C
+
+Apex@RUSH-DT55SJC8LS MINGW64 ~/Desktop/henock/hezben-d (main)
+$
